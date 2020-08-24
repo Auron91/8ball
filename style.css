@@ -84,3 +84,25 @@ body{
     animation: shake 1s 1;
 }
 
+@keyframes shake {
+    0% {
+        left: 290px;
+    }
+    20% {
+        left: 340px;
+    }
+    40% {
+        left: 290px;
+    }
+    60% {
+        left: 340px;
+    }
+    80% {
+        left: 290px;
+    }
+    100% {
+        left: 340px;
+    }
+}
+
+
